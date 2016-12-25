@@ -1,0 +1,1 @@
+docker run -d --volume=$(pwd):/srv/jekyll -t -p 4000:4000 jekyll/jekyll:pages chpst -u jekyll:jekyll jekyll s
